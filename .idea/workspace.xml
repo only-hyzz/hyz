@@ -2,106 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="debe096f-2246-426c-800b-cd802383b2de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/css/Common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/css/container.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/css/dynamic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/css/dynamic发现.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/css/dynamic我.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/css/menu-address.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/css/menu-home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/css/menu-发现.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/css/menu-我.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/css/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/css/pyqdynamic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/css/pyqsignal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/css/pyqtitle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/css/signal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/css/title.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/QQ飞车.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/二维码.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/五角星.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/信息1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/信息3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/信息add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/公众号.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/卡包.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/发现.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/发现1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/头像1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/头像2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/头像3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/头像4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/小程序.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/微信收藏.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/微信标签.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/我.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/我1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/扫一扫.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/扫一扫add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/搜一搜.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/搜索.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/搜索1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/摇一摇.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/收付款add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/新的朋友.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/朋友圈.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/朋友圈图片.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/朋友圈封面.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/朋友圈封面1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/消息.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/添加.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/添加好友.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/添加朋友add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/游戏.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/照相.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/爱心.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/相册.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/看一看.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/群聊.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/自己头像.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/表情1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/设置.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/话筒.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/语音.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/购物.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/运运.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/返回.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/返回1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/返回2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/通讯录.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/通讯录2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/钱包.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/附近的人.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/img/静音.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/js/addmenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/js/router-pyq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/js/router-发现.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/js/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/address-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/dynamic-address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/dynamic-home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/dynamic-发现.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/dynamic-我.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/dynamic-朋友圈.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/signal-address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/signal-home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/signal-发现.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/signal-我.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/signal-朋友圈.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/title-address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/title-home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/title-发现.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/title-我.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/title-朋友圈.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/发现.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/我.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/朋友圈.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/modul/wechat m/wechat/朋友圈11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -361,7 +262,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -527,16 +428,15 @@
       <workItem from="1533459803843" duration="52000" />
       <workItem from="1533460333322" duration="5129000" />
       <workItem from="1533476424154" duration="23000" />
-      <workItem from="1533513615525" duration="3667000" />
+      <workItem from="1533513615525" duration="4729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233109000" />
+    <option name="totallyTimeSpent" value="234171000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18295905" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
