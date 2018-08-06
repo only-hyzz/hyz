@@ -1,5 +1,5 @@
 $(function () {
     $("#add").click(function () {
-        $("#add-menu").toggle(200);
+        $("#add-menu").toggle(400);
     })
 })

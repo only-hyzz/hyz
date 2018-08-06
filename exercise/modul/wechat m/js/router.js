@@ -18,3 +18,7 @@ $(function(){
 
 
 })
+var xx=document.getElementById("tiao");
+xx.onclick=function () {
+    window.location.href="聊天界面.html"
+}

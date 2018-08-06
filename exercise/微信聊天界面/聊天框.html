@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>微信聊天框</title>
     <style>
       *{
@@ -11,9 +10,9 @@
           font-family: 微软雅黑;
       }
         .container{
-            height: 388px;
-            width: 300px;
-            margin: 30px auto;
+            height: 775px;
+            width: 600px;
+            margin: 60px auto;
             border: 3px solid grey;
             /*border-radius:5%;*/
             box-shadow: 0px 0px 10px gray;
@@ -24,63 +23,63 @@
             /*opacity: 0.3;*/
         }
         .head{
-            height: 20px;
+            height: 40px;
             margin: 0 auto;
             border: 1px solid grey;
             /*border-radius:5%;*/
-            font-size: 12px;
+            font-size: 24px;
             text-align: center;
-            line-height: 20px;
+            line-height: 40px;
             color: navajowhite;
             background-color: #bbbbbb;
             box-shadow: 0px 15px 40px slategray;
         }
         .line{
-            height: 50px;
+            height: 100px;
             /*border: 2px solid red ;*/
         }
 
         .profile1{
-            height: 25px;
-            width: 25px;
-            margin-top: 11px;
+            height: 50px;
+            width: 50px;
+            margin-top: 22px;
             background-image: url(头像1.jpg);
             background-position: center;
             background-size:cover;
             background-repeat: no-repeat;
             border-radius: 50%;
-            line-height: 25px;
+            line-height: 50px;
         }
       .profile2{
-          height: 25px;
-          width: 25px;
-          margin-top: 11px;
+          height: 50px;
+          width: 50px;
+          margin-top: 22px;
           background-image: url(头像2.jpg);
           background-position: center;
           background-size:cover;
           background-repeat: no-repeat;
           border-radius: 50%;
-          line-height: 25px;
+          line-height: 50px;
       }
         .textleft{
-            min-height: 30px;
-            max-width: 130px;
-            margin:10px 5px 0px 5px;
+            height: 60px;
+            width: 260px;
+            margin:20px 10px 0px 10px;
             background-color:whitesmoke;
-            font-size: 11px;
-            padding: 1.5px;
+            font-size: 22px;
+            padding: 3px;
             font-family: 楷体;
             border-radius:3%;
             box-shadow: 0px 0px 20px gray;
             position: relative;
         }
       .text{
-          height: 30px;
-          width: 130px;
-          margin:10px 5px 0px 5px;
+          height: 60px;
+          width: 260px;
+          margin:20px 10px 0px 10px;
           background-color:#19ff9a;
-          font-size: 11px;
-          padding: 1.5px;
+          font-size: 22px;
+          padding: 3px;
           font-family: 楷体;
           border-radius:3%;
           box-shadow: 0px 0px 20px gray;
@@ -88,25 +87,25 @@
           z-index: 2;
       }
         .imgline{
-            height: 75px;
+            height: 150px;
             /*border: 2px solid red ;*/
         }
         .imgprofile{
-            height: 25px;
-            width: 25px;
-            margin-top: 22px;
+            height: 50px;
+            width: 50px;
+            margin-top: 44px;
             background-image: url(头像1.jpg);
             background-position: center;
             background-size:cover;
             background-repeat: no-repeat;
             border-radius: 50%;
-            line-height: 25px;
+            line-height: 50px;
         }
         .img{
             cursor: pointer;
-            height: 38px;
-            width: 45px;
-            margin:10px 5px 0px 5px;
+            height: 150px;
+            width: 90px;
+            margin:20px 10px 0px 10px;
             background-image: url(背景.jpg);
             background-position: center;
             background-size:cover;
@@ -119,19 +118,19 @@
             transform: scale(1.2);
         }
         .last{
-            height: 13px;
+            height: 50px;
             /*border: 2px solid red;*/
         }
         input{
-            height: 27px;
-            width: 190px;float: left;
-            font-size: 12px;
+            height: 54px;
+            width: 380px;float: left;
+            font-size: 24px;
             font-weight: bold;
         }
         .emoticon{
             cursor:pointer;
-            height: 29px;
-            width: 32px;
+            height: 58px;
+            width: 65px;
             float: left;
             background-color:slategray;
             background-image: url(表情.svg);
@@ -145,8 +144,8 @@
         }
         .voice{
             cursor:pointer;
-            height: 29px;
-            width: 33px;
+            height: 58px;
+            width: 66px;
             float: left;
             background-color:slategray;
             background-image: url(语音.svg);
@@ -161,8 +160,8 @@
 
         .send{
             cursor:pointer;
-            height: 29px;
-            width: 40px;
+            height: 58px;
+            width: 85px;
             float: left;
             background-color:slategray;
             background-image: url(发送.svg);
@@ -175,7 +174,7 @@
           transform: scale(1.3);
       }
         .total{
-            height: 338px;
+            height: 675px;
            background-image: url(背景5.jpg);
             background-position: center;
             background-size:cover;
@@ -183,28 +182,25 @@
             overflow-y: scroll;
 
         }
-      ::-webkit-scrollbar {
-          display: none;
-      }
         .rightsquare{
-            height: 7px;
-            width: 7px;
+            height: 15px;
+            width: 15px;
             background-color:#19ff9a;
             border:1px solid #19ff9a;
             transform: rotate(45deg);
             position: absolute;
-            top: 10px;
-            left: 125px;
+            top: 20px;
+            left: 250px;
         }
         .leftsquare{
-            height: 6px;
-            width: 6px;
+            height: 12px;
+            width: 12px;
             background-color:whitesmoke;
             border:1px solid whitesmoke;
             transform: rotate(45deg);
             position: absolute;
-            top: 10px;
-            left: -1px;
+            top: 20px;
+            left: -2px;
             z-index: 1;
         }
     </style>
@@ -213,52 +209,74 @@
 <div class="container">
     <div class="head">与XXX的聊天对话框</div>
     <div class="total">
+    <div class="line">
+        <div class="profile1" style="float: left"></div>
 
+        <div class="textleft" style="float: left">你好,我是xxx,来自山西,现在在天津学习<div class="leftsquare">
+
+        </div></div>
+    </div>
+    <div class="line">
+        <div class="profile2" style="float: right"></div>
+        <div class="text" style="float: right">你好,我是xxx,来自山西,现在同样在天津学习<div class="rightsquare">
+
+        </div></div>
+    </div>
+    <div class="line">
+        <div class="profile1" style="float: left"></div>
+
+        <div class="textleft" style="float: left">你好,我是xxx,来自山西,现在在天津学习<div class="leftsquare">
+
+        </div></div>
+    </div>
+    <div class="imgline">
+        <div class="imgprofile" style="float: left"></div>
+
+        <div class="img" style="float: left"></div>
+    </div>
+    <div class="line">
+        <div class="profile2" style="float: right"></div>
+
+        <div class="text" style="float: right">你好,我是xxx,来自山西,现在在天津学习<div class="rightsquare">
+
+        </div></div>
+    </div>
+    <div class="line">
+        <div class="profile1" style="float: left"></div>
+
+        <div class="textleft" style="float: left">你好,我是xxx,来自山西,现在在天津学习<div class="leftsquare">
+
+        </div></div>
+    </div>
+        <div class="line">
+        <div class="profile2" style="float: right"></div>
+
+        <div class="text" style="float: right">你好,我是xxx,来自山西,现在在天津学习<div class="rightsquare">
+
+        </div></div>
+    </div>
+        <div class="line">
+            <div class="profile1" style="float: left"></div>
+
+            <div class="textleft" style="float: left">你好,我是xxx,来自山西,现在在天津学习<div class="leftsquare">
+
+            </div></div>
+        </div>
+        <div class="line">
+            <div class="profile2" style="float: right"></div>
+
+            <div class="text" style="float: right">你好,我是xxx,来自山西,现在在天津学习<div class="rightsquare">
+
+            </div></div>
+        </div>
     </div>
 
     <div class="last">
         <div class="in"><input type="text" placeholder="请输入聊天内容"></div>
         <div class="emoticon"></div>
         <div class="voice"></div>
-        <!--<div class="send"></div>-->
-        <input class="send" type="button" id="send1" value="发送">
+        <div class="send"></div>
     </div>
 </div>
 </body>
 </html>
-<script type="text/javascript" src="../微信聊天界面/js/"></script>
-<script>
-    $(function() {
-
-        var key = "ea881ba814a642688aae6adc684ffe3c";
-        var url = "http://www.tuling123.com/openapi/api";   //openAPI
-
-        $('#send').click(function() {  //当点击时
-
-            var info = {
-                "key": key,
-                "info": $("#content").val()
-            }   //向图灵 发送 聊天数据     .val  =  value
-
-            //生成自己的聊天内容
-            var self = $("<div class='text'>"+$("#content").val()+"</div><br>")
-            $(".total").append(self)
-
-
-            $.ajax({
-                type: "POST",
-                url: url,
-                data: info,
-                dataType: "json",
-                success: function(result) {
-                    var robot = $("<div class='textleft'>"+result.text +"</div><br>")
-
-                    $(".total").append(robot)
-
-                }
-            });
-
-        })
-
-    })
-</script>

@@ -26,13 +26,37 @@
     background-repeat: no-repeat;
 }
 
+#title-leftimage1 {
+
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/返回.svg);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
 #title-leftname{
     display: none;
     height: 20px;
     width: 40px;
     font-size: 15px;
 }
+#title-leftname1{
+   line-height: 20px;
+    height: 20px;
+    width: 50px;
+    font-size: 13px;
+}
+#sangedian{
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
 
+    background-image: url(../img/三个点.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 #title-center {
     flex: 1;
     display: flex;
