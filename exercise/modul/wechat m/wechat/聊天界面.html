@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>聊天界面</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../css/Common.css">
+    <link rel="stylesheet" href="../css/container.css">
+    <link rel="stylesheet" href="../css/signal.css">
+    <link rel="stylesheet" href="../css/title.css">
+    <link rel="stylesheet" href="../css/dynamic.css">
+    <link rel="stylesheet" href="../css/liaotianshuru.css">
+    <link rel="stylesheet" href="../css/ltdynamic.css">
+    <script src="../js/jquery.js"></script>
+</head>
+<body>
+<div id="container">
+    <div id="signal">
+        <div id="signal-left" class="">
+            <div id="sg" class="">
+                <div id="sig1" class=""></div>
+                <div id="sig2"></div>
+                <div id="sig3"></div>
+                <div id="sig4"></div>
+                <div id="sig5"></div>
+            </div>
+            <div id="op" class="">中国移动</div>
+            <div id="xg" class="">4G</div>
+        </div>
+        <div id="signal-center" class="">11:11am</div>
+        <div id="signal-right" class="">
+            <div id="chongdianzhong">87%</div>
+            <div id="battery" >
+                <div id="battery-body" class="">
+                    <div id="battery-core" class="charging"></div>
+                </div>
+                <div id="battery-head" class=""></div>
+            </div>
+
+        </div>
+    </div>
+    <div id="title">
+        <div id="title-left" onclick="javascript:window.history.back(-1)">
+            <div id="title-leftimage1" class=""></div>
+            <div id="title-leftname1" class="">微信(1)</div>
+        </div>
+        <div id="title-center" class="">
+            <div id="title-centername" class="">宝贝儿</div>
+        </div>
+        <div id="title-right" class="">
+            <div id="add-menu" style="display: none">
+                <div class="addmenu">
+                    <div class="addsanjiao"></div>
+                    <div class="addmenuimg" style="background-image: url(../img/信息add.svg)"></div>
+                    <div class="addmenuname">发起群聊</div>
+                </div>
+                <div class="addmenu">
+                    <div class="addmenuimg" style="background-image: url(../img/添加朋友add.svg)"></div>
+                    <div class="addmenuname">添加朋友</div>
+                </div>
+                <div class="addmenu">
+                    <div class="addmenuimg" style="background-image: url(../img/扫一扫add.svg)"></div>
+                    <div class="addmenuname">扫一扫</div>
+                </div>
+                <div class="addmenu" style="border-bottom: 0">
+                    <div class="addmenuimg" style="background-image: url(../img/收付款add.svg)"></div>
+                    <div class="addmenuname">收付款</div>
+                </div>
+
+            </div>
+            <div id="sangedian" ></div>
+
+        </div>
+    </div>
+    <div id="ltdynamic" >
+
+    </div>
+
+    <div id="liaotianshuru">
+        <div class="yuyin"></div>
+        <input class="shuru" type="text" id="content" style="height: 25px;width: 180px;text-indent: 10px"/>
+        <div class="fasong" id="btn">发送</div>
+        <div class="biaoqing" ></div>
+        <div class="jiahao"></div>
+    </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript" src="../js/jquery.js" ></script>
+
+<script>
+    $(function() {
+
+        var key = "ea881ba814a642688aae6adc684ffe3c";
+        var url = "http://www.tuling123.com/openapi/api";   //openAPI
+
+        $('#btn').click(function() {  //当点击时
+
+            var info = {
+                "key": key,
+                "info": $("#content").val()
+            }   //向图灵 发送 聊天数据     .val  =  value
+
+            //生成自己的聊天内容
+            var self = $( "<div class='right '>"+
+            "<div class='righttext '>"+$("#content").val()+"</div>"+"<div class='rightimg'></div>"+"</div>")
+            $("#ltdynamic").append(self)
+
+
+
+
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: info,
+                dataType: "json",
+                success: function(result) {
+                    var robot = $("<div class='left'>"+ "<div class='leftimg '>"+"</div>"+"<div class='lefttext'>"+result.text+"</div>"+"</div>")
+
+                    $("#ltdynamic").append(robot)
+
+                }
+            });
+
+        })
+
+    })
+</script>

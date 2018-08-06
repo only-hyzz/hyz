@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天框</title>
+    <style>
+        .container{
+            margin: 0 auto;
+            height: 600px;
+            width: 400px;
+            background-color: #777777;
+        }
+      .right{
+          float: right;
+          background-color: #2aa515;
+          text-align: right;
+      }
+        .left{
+            float: left;
+            background-color: chocolate;
+        }
+        .size{
+            max-width: 80%;
+            min-height: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="container"></div>    <!-- 聊天容器 -->
+<input type="text" id="content">
+<input type="button" id="btn" value="send" />
+
+</body>
+</html>
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script>
+    $(function() {
+
+        var key = "ea881ba814a642688aae6adc684ffe3c";
+        var url = "http://www.tuling123.com/openapi/api";   //openAPI
+
+        $('#btn').click(function() {  //当点击时
+
+            var info = {
+                "key": key,
+                "info": $("#content").val()
+            }   //向图灵 发送 聊天数据     .val  =  value
+
+            //生成自己的聊天内容
+            var self = $("<div class='right size'>"+$("#content").val()+"</div><br>")
+            $(".container").append(self)
+
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: info,
+                dataType: "json",
+                success: function(result) {
+                    var robot = $("<div class='left size'>"+result.text +"</div><br>")
+
+                    $(".container").append(robot)
+
+                }
+            });
+
+        })
+
+    })
+</script>

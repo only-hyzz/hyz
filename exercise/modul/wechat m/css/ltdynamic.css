@@ -1,0 +1,84 @@
+#ltdynamic{
+    flex: 1;
+    width: 100%;
+    background-color:gainsboro;
+    /*display: flex;*/
+    /*flex-flow: column wrap;*/
+    /*align-items: flex-start;*/
+    /*justify-content: flex-start;*/
+    overflow-y: scroll;
+}
+.right{
+    /*background-color: brown;*/
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+
+    display: flex;
+    flex-flow: nowrap;
+    display: -moz-inline-box;
+    justify-content: flex-end;
+    /*background-color: gray;*/
+    align-items: center;
+}
+.rightimg{
+    background-color: #19ff9a;
+    margin-right: 8px;
+    height: 34px;
+    width: 34px;
+    background-image: url(../img/自己头像.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.righttext{
+    text-align: right;
+    margin-right: 10px;
+    width: 200px;
+    display: -moz-inline-box;
+    font-size: 14px;
+}
+
+.left{
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: flex-start;
+    /*background-color: #2aa515;*/
+    align-items: center;
+    display: -moz-inline-box;
+}
+.leftimg{
+    margin-left: 8px;
+    height: 34px;
+    width: 34px;
+    background-image: url(../img/机器人.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.lefttext{
+    margin-left: 10px;
+    width: 200px;
+    display: -moz-inline-box;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

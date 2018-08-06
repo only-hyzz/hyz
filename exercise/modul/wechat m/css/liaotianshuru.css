@@ -1,0 +1,56 @@
+#liaotianshuru{
+    height: 40px;
+    width: 100%;
+    background-color: gainsboro;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+}
+.yuyin{
+    height: 40px;
+    width: 40px;
+    /*background-color: #2aa515;*/
+    background-image: url(../img/语音1.svg);
+    background-size:55%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fasong{
+    margin-right: -8px;
+    margin-top: 8px;
+    height: 20px;
+    width: 30px;
+    color: gray;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+
+}
+.shuru{
+    border-radius: 5px;
+    margin-top: 5px;
+    height: 30px;
+    width: 200px;
+
+    background-color: whitesmoke;
+}
+.biaoqing{
+    height: 40px;
+    width: 40px;
+    margin-right: -18px;
+
+    /*background-color: #2aa515;*/
+    background-image: url(../img/表情2.svg);
+    background-size: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.jiahao{
+    height: 40px;
+    width: 40px;
+
+    background-image: url(../img/加号.svg);
+    background-size: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
