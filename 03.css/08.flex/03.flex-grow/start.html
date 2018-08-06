@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex-grow</title>
+    <style>
+          *{
+              padding: 0px;
+              margin: 0px;
+          }
+        #wrap{
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            border: 1px red solid;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+        }
+        .sub{
+            width: 100%;
+        }
+
+        #d1{
+            height: 40px;
+            background-color: red;
+        }
+        #d2{
+            flex: 1;
+            background-color: orange;
+        }
+        #d3{
+            flex: 2;
+            background-color: gray;
+        }
+        #d4{
+            height: 40px;
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <div id="d1" class="sub"></div>
+    <div id="d2" class="sub"></div>
+    <div id="d3" class="sub"></div>
+    <div id="d4" class="sub"></div>
+</div>
+</body>
+</html>

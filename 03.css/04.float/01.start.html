@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .container{
+
+            width: 300px;
+            /*border: 2px solid red;*/
+
+        }
+        .sub{
+            height: 60px;
+            width: 80px;
+            float: left;
+            opacity: .3;
+        }
+        .bottom{
+            height: 400px;
+            width: 400px;
+            background-color: coral;
+        }
+        #d1{
+            background-color: green;
+        }
+        #d2{
+            background-color: gray;
+        }
+        #d3{
+            background-color: red;
+            /*text-overflow: ellipsis;*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="d1" class="sub"></div>
+        <div id="d2" class="sub"></div>
+        <div id="d3" class="sub"></div>
+        <br clear="both">
+    </div>
+    <div class="bottom"></div>
+</body>
+</html>

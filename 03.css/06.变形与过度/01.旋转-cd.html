@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>旋转cd</title>
+    <style>
+    @keyframes play {
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+        .container{
+         height: 300px;
+         width: 300px;
+         margin: 120px;
+            /*border: 1px solid red;*/
+        }
+        .sub{
+            height: 300px;
+            width: 300px;
+            background-image:url(cd.jpg) ;
+            background-size: cover;
+            background-position: center;
+            border-radius: 50%;
+            transition: all 4s linear;
+        }
+        .sub:hover{
+            animation: play 4s linear infinite;
+        }
+        .play{
+            height: 40px;
+            width: 40px;
+            position: relative;
+            top: 130px;
+            left: 130px;
+            background-image: url(播放.svg);
+            background-size: cover;
+            background-position: center;
+            transition: all 4s linear;
+
+        }
+    .play:hover {
+        animation: play 4s linear infinite;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sub">
+            <div class="play"></div>
+        </div>
+
+    </div>
+</body>
+</html>

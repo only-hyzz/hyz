@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>相对定位</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .d{
+            height: 100px;
+            width: 100px;
+            text-align: center;
+            line-height: 100px;
+            overflow: hidden;
+        }
+        #d1{
+            background-color: slategray;
+            position: relative;
+            top: 30px;
+            left: 40px;
+            z-index: 3;
+        }
+        #d2{
+            background-color: orangered;
+            position: relative;
+            top: -15px;
+            left: 15px;
+            z-index: 5;
+        }
+        #d3{
+            background-color: red;
+            position: relative;
+            top: -90px;
+            left: 60px;
+            z-index: 4;
+        }
+    </style>
+</head>
+<body>
+<div id="d1" class="d">D1</div>
+<div id="d2" class="d">D2</div>
+<div id="d3" class="d">D3</div>
+</body>
+</html>

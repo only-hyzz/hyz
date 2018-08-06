@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画</title>
+    <style>
+        @keyframes move {
+            0%{
+                background-color: green;
+            }
+            25%{
+                transform: translate(80px , 0px);
+
+            }
+            50%{
+                transform: translate(80px,80px);
+
+                border-radius: 50%;
+            }
+            75%{
+                transform: translate(0px , 80px);
+                background-color: gray;
+            }
+            100%{
+                transform: translate(0px , 0px);
+                background-color: blueviolet;
+                border-radius: 80%;
+        }
+        }
+        .container{
+            height: 100px;
+            width: 100px;
+            margin: 80px;
+            background-color: orange;
+            /*transition: all 1s linear;*/
+        }
+        .container:hover{
+        animation: move 4s linear reverse;
+        }
+    </style>
+</head>
+<body>
+<div class="container"></div>
+</body>
+</html>

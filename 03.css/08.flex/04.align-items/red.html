@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pocket</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: 微软雅黑;
+            font-size: 24px;
+        }
+        .container{
+            position: relative;
+            height: 600px;
+            width: 600px;
+            margin: 80px;
+            overflow: hidden;
+
+        }
+        .red{
+
+            /*position: fixed;*/
+            height: 360px;
+            width: 300px;
+            margin: 120px 140px;
+            background-color: red;
+            /*z-index: 2;*/
+            overflow: hidden;
+            box-shadow: 0px 0px 20px grey;
+        }
+        .open{
+            background-color:#ff8b15;
+            position: absolute;
+            top: 300px;
+            left: 250px;
+            height: 60px;
+            width: 60px;
+            border-radius:50% ;
+            text-align: center;
+            line-height: 60px;
+            box-shadow: 0px 0px 20px grey;
+            /*z-index: 2;*/
+        }
+        .xycenter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .circle{
+            position: relative;
+            top: -190px;
+            left: -50px;
+            background-color: crimson;
+            height: 400px;
+            width: 400px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 40px grey;
+            /*z-index: 1;*/
+
+        }
+        .top{
+            display: flex;
+            flex-flow: column;
+            justify-content: flex-start;
+            align-items: baseline;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="red ">
+        <div class="circle"></div>
+    <div class="open ">开</div>
+    </div>
+
+    </div>
+</body>
+
+
+</html>

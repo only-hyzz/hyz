@@ -1,0 +1,541 @@
+#dynamic{
+    flex: 2;
+    width: 100%;
+    background-color:darkgray;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+input::-webkit-input-placeholder{
+    color: gray;
+    text-align: center;
+    letter-spacing: 10px;
+}
+input{
+
+    box-shadow: 0px 0px 20px grey;
+    border-radius: 20px;
+}
+#sousuo{
+    height: 41px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bbbbbb;
+    opacity: .9;
+}
+#ssinput{
+    width: 94%;
+    height: 23px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#ssimg{
+     height: 22px;
+    width: 25px;
+    background-image: url(../img/搜索.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#ssword{
+    margin-left: 1px;
+    letter-spacing: 4px;
+   height: 20px;
+    width: 40px;
+    color: #777777;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}
+#yuyin{
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    height: 16px;
+    width: 40px;
+    background-image: url(../img/话筒.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#tomsg{
+
+    flex: 1;
+    width: 100%;
+    background-color:whitesmoke;
+    overflow-y: scroll;
+}
+.message{
+    /*margin-top: 20px;*/
+    /*margin-bottom: 10px;*/
+    height: 66px;
+width: 96%;
+    margin: auto;
+    border-bottom: 1px solid gainsboro;
+display: flex;
+justify-content: space-between;
+    align-items: center;
+
+}
+.profile{
+    margin-left:9px ;
+height: 40px;
+    width: 40px;
+   /*border-radius: 50%;*/
+   background-image: url(../img/5.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.red{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: crimson;
+    right: -4px;
+    top: -5px;
+    border-radius: 50%;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 10px;
+    font-size: 6px;
+}
+.msg{
+    margin-left: 4px;
+    flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+}
+.name{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-indent: 10px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.msg1{
+
+    letter-spacing: 1px;
+    height: 50%;
+    color:darkgrey;
+    text-indent: 10px;
+    font-size: 12px;
+    font-weight:lighter;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+    /*flex-flow: row nowrap;*/
+    position: relative;
+}
+.jingyin{
+    position: absolute;
+    right: 22px;
+    top: 5px;
+    height: 15px;
+    width: 20px;
+    background-image: url(../img/静音.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.msgyuyin{
+   letter-spacing: 2px;
+    margin-top: 2px;
+    height: 50%;
+    color:darkgrey;
+    text-indent: 10px;
+    font-size: 12px;
+    /*font-weight:lighter;*/
+    color: crimson;
+}
+.time{
+    margin-right: 25px;
+    height: 15px;
+    width: 40px;
+    text-align: center;
+    font-size: 11px;
+    font-weight:lighter;
+}
+#toolmenu{
+    height: 160px;
+    width:98%;
+    margin: auto;
+    /*background-color: #9c27b0;*/
+    /*border-bottom: 1px solid gainsboro;*/
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#newfriend{
+    height: 50px;
+    width:98%;
+    margin: auto;
+    /*background-color:;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+    .img1{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/新的朋友.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        border-radius: 5px;
+    }
+    .name1{
+        letter-spacing: 1px;
+        margin-left: 6px;
+        height: 30px;
+        width: 80px;
+
+        font-size: 14px;
+        line-height: 30px;
+
+    }
+#group{
+    height: 50px;
+    width:98%;
+    margin: auto;
+    /*background-color:;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+.img2{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/群聊.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 5px;
+}
+.name2{
+    letter-spacing: 1px;
+    margin-left: 6px;
+    height: 30px;
+    width: 80px;
+
+    font-size: 14px;
+    line-height: 30px;
+
+}
+#tag{
+    height: 50px;
+    width:98%;
+    margin: auto;
+    /*background-color:;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+
+}
+.img3{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/微信标签.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 5px;
+}
+.name3{
+    letter-spacing: 1px;
+    margin-left: 6px;
+    height: 30px;
+    width: 80px;
+
+    font-size: 14px;
+    line-height: 30px;
+}
+#public{
+    height: 50px;
+    width:98%;
+    margin: auto;
+
+    /*background-color:;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /*border-bottom: 1px solid gainsboro;*/
+}
+.img4{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/公众号.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 5px;
+}
+.name4{
+    letter-spacing: 1px;
+    margin-left: 6px;
+    height: 30px;
+    width: 80px;
+
+    font-size: 14px;
+    line-height: 30px;
+}
+.gray{
+    height: 16px;
+    background-color: gainsboro;
+    position: relative;
+}
+#star{
+    position: absolute;
+    top: 4px;
+    left: 26px;
+    /*border: 2px red solid ;*/
+    height: 8px;
+    width: 8px;
+    background-image: url(../img/五角星.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+}
+.name5{
+    letter-spacing: 1px;
+    margin-left: 40px;
+    height: 30px;
+    width: 80px;
+    font-size: 10px;
+    line-height: 16px;
+    color: grey;
+}
+.scontacts{
+    height: 50px;
+    width: 98%;
+    margin: auto;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.spro{
+    margin-left:6px;
+    height: 29px;
+    width: 29px;
+    background-color: #19ff9a;
+    background-image: url(../img/4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.sname{
+    margin-left: 8px;
+    letter-spacing: 1px;
+    height: 26px;
+    width: 140px;
+    font-size: 13px;
+    line-height: 26px;
+}
+.zimu{
+    letter-spacing: 1px;
+    margin-left: 26px;
+    height: 30px;
+    width: 80px;
+    font-size: 10px;
+    line-height: 16px;
+    color: grey;
+}
+.contacts{
+    height: 50px;
+    width: 98%;
+    margin: auto;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.pro{
+    margin-left: 6px;
+    height: 29px;
+    width: 29px;
+    background-color: #19ff9a;
+    background-image: url(../img/头像1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.name6{
+    margin-left:10px;
+    letter-spacing: 1px;
+    height: 26px;
+    width: 140px;
+    font-size: 13px;
+    line-height: 26px;
+}
+#zimuorder{
+
+    position: absolute;
+    margin: 0 auto;
+    right: 10px;
+    top: 180px;
+    height: 260px;
+    width: 10px;
+    word-wrap: break-word;
+    z-index: 2;
+    font-size: 10px;
+}
+#xiaosousuo{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-image: url(../img/搜索1.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 145px;
+    right: 8px;
+    z-index: 2;
+}
+#xiaoxingxing{
+    background-image: url(../img/五角星.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 14px;
+    width: 20px;
+    z-index: 2;
+    top: 164px;
+    right: 7px;
+}
+.oneline{
+    margin: 10px 0px 5px 0px;
+    height: 44px;
+    width: 100%;
+    display: flex;
+    background: whitesmoke;
+
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.ziji{
+    margin-left: 8px;
+    margin-top: 8px;
+    height: 60px;
+    flex: 4;
+    /*background-color: #2aa515;*/
+    display: flex;
+    flex-flow: column;
+}
+.zijimingzi{
+    flex: 1;
+    /*background-color: #9c27b0;*/
+    line-height: 30px;
+    font-size: 16px;
+}
+.weixinhao{
+    flex: 1;
+    /*background-color: #ff8b15;*/
+    line-height: 30px;
+    font-size: 14px;
+}
+.tubiao{
+    margin-left: 8px;
+    margin-top: 4px;
+    height: 38px;
+    width: 38px;
+    /*background-color: #2aa515;*/
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.hongyuandian{
+    position: absolute;
+    top: 6px;
+    right: 2px;
+    height: 7px;
+    width:7px;
+    background-color: red;
+    border-radius: 50%;
+}
+.tubiaomingzi{
+    margin-left: 3px;
+    flex: 4;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 14px;
+    line-height: 44px;
+}
+.tishineirong{
+    flex: 2.5;
+    font-size: 12px;
+    /*background-color: black;*/
+    line-height: 40px;
+    color: #777777;
+}
+.tishitubiao{
+    position: relative;
+    height: 38px;
+    /*margin-top: 0px;*/
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1;
+    /*background-color: bisque;*/
+    border-radius:50%;
+}
+.fanhui{
+    background-image: url(../img/返回2.svg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 0.5;
+}
+.twoline{
+    height: 126px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    /*background-color: #2aa515;*/
+}
+.fourline{
+    height: 210px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    /*background-color: #2aa515;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

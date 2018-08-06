@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>京东</title>
+    <style>
+        .border{
+            border: 1px solid red;
+        }
+        .row1{
+            display: inline-block;
+            font-size: 19px;
+            font-family: 楷体;
+            color: white;
+            width: 100%;
+            height: 20px;
+           background-color:slategray;
+
+        }
+         a{
+             font-size: 19px;
+             font-family: 楷体;
+             color: white;
+             width: 100%;
+             height: 20px;
+             text-decoration: none;
+         }
+        .login{
+            font-size: 19px;
+            font-family: 楷体;
+            color: blue;
+        }
+        .img{
+            height: 150px;
+            width: 100%;
+            background-size:20% ;
+            background-repeat: no-repeat;
+            background-position:left;
+        }
+       .input1{
+           position: absolute;
+           left: 660px;
+           top: 100px;
+       }
+        .what{
+            position: absolute;
+            left: 835px;
+            top: 100px;
+            background-color:orangered;
+            color: white;
+        }
+        .row2{
+            height: 150px;
+            width: 100%;
+            background-size:80% ;
+            background-repeat: no-repeat;
+            background-position:center;
+        }
+        .row3{
+            height: 500px;
+            width: 200px;
+            font-family: 楷体;
+            font-size: 20px;
+            color: orangered;
+        }
+        ul li{
+            text-align:0
+        }
+        .container{
+            display: inline-block;
+            height: 400px;
+            width: 240px;
+            margin: 8px;
+            box-shadow: 0px 0px 10px gray;
+            border-radius: 10px 10px 0px 0px;
+            overflow: hidden;}
+        .jdimg{
+            height: 180px;
+            background-size:contain ;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .name{
+            height: 20px;
+            font-family: 楷体;
+            font-size: 16px;
+            margin: 10px;
+            text-align: center;
+            font-weight:700;
+        }
+        .price{
+            height: 20px;
+            margin: 10px;
+            font-family: 楷体;
+            font-size: 18px;
+            font-weight: 500;
+            color: cornflowerblue;
+            text-align: right;
+        }
+        .buy{
+            height: 40px;
+            width:240px;
+            background-color:coral;
+            color: aliceblue;
+            font-size: 24px;
+            text-align: center;
+        }
+        .container1{
+            position: absolute;
+            top: 330px;
+            left: 220px;
+            height: 800px;
+            width: 1400px;
+        }
+    </style>
+</head>
+<body>
+    <div></div><div class="row1" ><a href="http://www.jd.com">京东首页</a>
+        <a  class="login" href="#">你好,请登录</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <select >
+            <option value="">消息</option>
+            <option value="">待处理订单</option>
+            <option value="">我的优惠券</option>
+            <option value="">我的关注</option>
+        </select>          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <select >
+            <option value="">客户服务</option>
+            <option value="">帮助中心</option>
+            <option value="">售后服务</option>
+            <option value="">在线客服</option>
+        </select>          &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <select >
+            <option value="">网站导航</option>
+            <option value="">特色主题</option>
+            <option value="">行业频道</option>
+            <option value="">生活服务</option>
+        </select> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="//app.jd.com/">手机京东</a>
+    </div>
+    <div class="img   " style="background-image:url(../../03.css/02.box/06.背景/jd1.PNG) ">
+        <input  style="height: 40px;width:168px" class="input1" type="text" placeholder="请输入要搜索的商品" >&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        <input class="what"   style="height: 50px;width: 60px" type="submit"value="搜索">
+    </div>
+    <div class="row2 " style="background-image: url(img/jd2.PNG)"></div>
+    <div class="row3 ">店内搜索<hr>
+        <input  type="text" placeholder="请输入搜索词" >
+        <input  type="button"value="搜索">
+        <p>热门搜索： 会议平板、无线传屏、智能笔</p>
+        <p>商品分类</p>
+        <hr>
+        <ul>
+            <li>标准版55英寸</li>
+            <li>标准版65英寸</li>
+            <li>标准版75英寸</li>
+            <li>标准版86英寸</li>
+        </ul>
+    </div>
+   <div class="container1 ">
+    <div class="container ">
+        <div class="jdimg " style="background-image: url(img/jd3.jpg)"></div>
+        <div class="name ">小米笔记本电脑</div>
+        <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+        <div class="price">3999元</div>
+        <div class="buy"><input class="buy" type="button" value="购买"></div>
+    </div>
+    <div class="container">
+        <div class="jdimg " style="background-image: url(img/jd4.jpg)"></div>
+        <div class="name ">小米笔记本电脑</div>
+        <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+        <div class="price">3999元</div>
+        <div class="buy"><input class="buy" type="button" value="购买"></div>
+    </div>
+    <div class="container">
+        <div class="jdimg " style="background-image: url(img/jd5.jpg)"></div>
+        <div class="name ">小米笔记本电脑</div>
+        <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+        <div class="price">3999元</div>
+        <div class="buy"><input class="buy" type="button" value="购买"></div>
+    </div>
+    <div class="container">
+        <div class="jdimg " style="background-image: url(img/jd6.jpg)"></div>
+        <div class="name ">小米笔记本电脑</div>
+        <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+        <div class="price">3999元</div>
+        <div class="buy"><input class="buy" type="button" value="购买"></div>
+    </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd4.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd5.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd6.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd5.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd6.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd4.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd5.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd6.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd5.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd6.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd4.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd5.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd6.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd5.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd6.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd4.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd5.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+       <div class="container">
+           <div class="jdimg " style="background-image: url(img/jd6.jpg)"></div>
+           <div class="name ">小米笔记本电脑</div>
+           <div class="detail ">15.6寸主打游戏性能。提供第四代酷睿i7处理器，内置NVIDIAGeForce GTX760M显卡和8GB内存。</div>
+           <div class="price">3999元</div>
+           <div class="buy"><input class="buy" type="button" value="购买"></div>
+       </div>
+</div>
+
+
+</body>
+</html>
